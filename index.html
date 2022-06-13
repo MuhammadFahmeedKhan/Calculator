@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main_box">
+    <div class="box">
+        <i class="fa-solid fa-ellipsis"></i>
+    <div class="screen">
+    <input type="text" id="inp" placeholder="0">
+    </div>
+    <div class="btns">     
+
+        <button onclick="clr()">C</button>
+        <button onclick="back()"><i class="fa-solid fa-delete-left"></i></button>
+        <button onclick="percentage()"><i class="fa-solid fa-percent"></i></button>
+        <button onclick="num('+')"><i class="fa-solid fa-plus"></i></button>
+        <button onclick="num(1)">1</button>
+        <button onclick="num(2)">2</button>
+        <button onclick="num(3)">3</button>
+        <button onclick="num('-')"><i class="fa-solid fa-minus"></i></button>
+        <button onclick="num(4)">4</button>
+        <button onclick="num(5)">5</button>
+        <button onclick="num(6)">6</button>
+        <button onclick="num('*')"><i class="fa-solid fa-xmark"></i></button>
+        <button onclick="num(7)">7</button>
+        <button onclick="num(8)">8</button>
+        <button onclick="num(9)">9</button>
+        <button onclick="num('/')"><i class="fa-solid fa-divide"></i></button>
+        <button onclick="num(0)">0</button>
+        <button onclick="num('00')">00</button>
+        <button onclick="num('.')">.</button>
+        <button onclick="sqr()"><i class="fa-solid fa-superscript"></i></button>
+        <button onclick="equal()">=</button>
+        <button onclick="rad()"><i class="fa-solid fa-square-root-variable"></i></button>
+</div>
+</div>
+</div>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>

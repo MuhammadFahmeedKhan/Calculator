@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: orbitron;
+}
+
+.main_box{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #17202A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box{
+    width: 30%;
+    border-radius: 36px;
+    background: #e0e0e0;
+    border-radius: 31px;
+    background: #17202A;
+    box-shadow:  10px 10px 15px #0c1117,-10px -10px 15px #222f3d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fa-ellipsis{
+    color: #F2F3F4;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.screen input{
+    width: 82%;
+    height: 100px;
+    border: none;
+    border-radius: 12px;
+    background: #17202A;
+    box-shadow: inset 5px 5px 8px #0c1117,inset -5px -5px 8px #222f3d;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #DFFF00;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    }
+
+.btns button{
+    width:60px;
+    height:60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: #17202A;
+    background: linear-gradient(145deg, #19222d, #151d26);
+    box-shadow:  5px 5px 8px #0c1117,-5px -5px 8px #222f3d;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: #117864;
+    transition: .8s linear;
+}
+.btns button:hover{
+    background: #e0e0e0;
+    background: #17202A;
+    box-shadow: inset 5px 5px 8px #0c1117,inset -5px -5px 8px #222f3d;
+}
+
+.btns button:nth-child(4n){
+    color: #76448A;
+}
+.btns button:nth-child(1){
+    color: #C0392B;
+}
+.btns button:nth-child(2){
+    color: #C0392B;
+}
+.btns button:nth-child(3){
+    color: #21618C;
+}
+.btns button:nth-child(21){
+    width: 225px;
+    font-size: 25px;
+    color: #21618C;
+}
+.btns button:nth-child(20){
+    color: #D4AC0D;
+}
+.btns button:nth-child(22){
+    color: #D4AC0D;
+}
+
